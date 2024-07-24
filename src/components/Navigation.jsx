@@ -21,7 +21,7 @@ const Navigation = () => {
         <NavbarBrand className="flex gap-2">
           <React className="animate-spin" />
           <Link href="/" className="font-bold text-md hover:text-sky-400">
-            Front Manegement
+            Front Management
           </Link>
         </NavbarBrand>
       </NavbarContent>
