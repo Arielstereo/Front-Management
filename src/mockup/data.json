@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Zustand",
+    "snippet": "npm install zustand",
+    "url": "https://zustand-demo.pmnd.rs/"
+  },
+  {
+    "id": 2,
+    "title": "Tailwind CSS",
+    "snippet": "npm install tailwindcss",
+    "url": "https://tailwindcss.com/docs"
+  },
+  {
+    "id": 3,
+    "title": "React Router",
+    "snippet": "npm install react-router-dom",
+    "url": "https://reactrouter.com/"
+  },
+  {
+    "id": 4,
+    "title": "Redux",
+    "snippet": "npm install @reduxjs/toolkit react-redux",
+    "url": "https://redux.js.org/"
+  },
+  {
+    "id": 5,
+    "title": "Axios",
+    "snippet": "npm install axios",
+    "url": "https://axios-http.com/"
+  },
+  {
+    "id": 6,
+    "title": "Styled Components",
+    "snippet": "npm install styled-components",
+    "url": "https://styled-components.com/"
+  },
+  {
+    "id": 7,
+    "title": "React Query",
+    "snippet": "npm install @tanstack/react-query",
+    "url": "https://tanstack.com/query/latest"
+  },
+  {
+    "id": 8,
+    "title": "Formik",
+    "snippet": "npm install formik",
+    "url": "https://formik.org/"
+  },
+  {
+    "id": 9,
+    "title": "Yup",
+    "snippet": "npm install yup",
+    "url": "https://github.com/jquense/yup"
+  },
+  {
+    "id": 10,
+    "title": "Framer Motion",
+    "snippet": "npm install framer-motion",
+    "url": "https://www.framer.com/motion/"
+  },
+  {
+    "id": 11,
+    "title": "Chakra UI",
+    "snippet": "npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion",
+    "url": "https://chakra-ui.com/"
+  },
+  {
+    "id": 12,
+    "title": "Recoil",
+    "snippet": "npm install recoil",
+    "url": "https://recoiljs.org/"
+  },
+  {
+    "id": 13,
+    "title": "React Hook Form",
+    "snippet": "npm install react-hook-form",
+    "url": "https://react-hook-form.com/"
+  },
+  {
+    "id": 14,
+    "title": "React Helmet",
+    "snippet": "npm install react-helmet",
+    "url": "https://github.com/nfl/react-helmet"
+  },
+  {
+    "id": 15,
+    "title": "React Spring",
+    "snippet": "npm install @react-spring/web",
+    "url": "https://www.react-spring.dev/"
+  },
+  {
+    "id": 16,
+    "title": "React i18next",
+    "snippet": "npm install react-i18next i18next",
+    "url": "https://react.i18next.com/"
+  }
+]
