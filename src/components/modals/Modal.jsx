@@ -18,7 +18,7 @@ const ModalComponent = () => {
   const { id } = params;
 
   const deleteProyect = async () => {
-    await axios.delete(`http://localhost:3000/api/proyects/${id}`);
+    await axios.delete(`https://front-management.vercel.app/api/proyects/${id}`);
     router.push("/proyects");
   };
 
