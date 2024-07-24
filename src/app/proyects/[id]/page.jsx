@@ -49,7 +49,7 @@ const Page = ({ params }) => {
     const getProyectData = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:3000/api/components/${id}`
+          `https://front-management.vercel.app/api/components/${id}`
         );
         setItem(res.data);
         setComponents(res.data.components);
@@ -63,7 +63,7 @@ const Page = ({ params }) => {
   const checkCompleted = async (componentId) => {
     try {
       const res = await axios.put(
-        `http://localhost:3000/api/components/${componentId}`
+        `https://front-management.vercel.app/api/components/${componentId}`
       );
 
       if (res.status === 200) {

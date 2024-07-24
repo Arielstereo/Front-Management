@@ -32,7 +32,7 @@ export default function ModalForm({ component, setComponents, setComponent, para
       description: component.description,
     };
     const res = await axios.post(
-      `http://localhost:3000/api/components/${id}`,
+      `https://front-management.vercel.app/api/components/${id}`,
       data
     );
     // Actualizar el estado local con el nuevo componente

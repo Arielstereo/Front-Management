@@ -20,7 +20,7 @@ const ProyectPage = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/api/proyects");
+        const res = await axios.get("https://front-management.vercel.app/api/proyects");
         setProyects(res.data);
       } catch (error) {
         console.error("Error fetching data:", error);

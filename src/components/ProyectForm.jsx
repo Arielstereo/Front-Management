@@ -89,7 +89,7 @@ const ProyectForm = () => {
       return setError("Framework is required!");
     } else {
       const addProyectToDb = await axios.post(
-        "http://localhost:3000/api/proyects",
+        "https://front-management.vercel.app/api/proyects",
         data
       );
       console.log(addProyectToDb);
@@ -118,7 +118,7 @@ const ProyectForm = () => {
     if (!framework) {
       return setError("Framework is required!");
     } else {
-      await axios.put(`http://localhost:3000/api/proyects/${params.id}`, data);
+      await axios.put(`https://front-management.vercel.app/api/proyects/${params.id}`, data);
       router.push("/proyects");
 
       if (data.completed && data.url !== "") {
