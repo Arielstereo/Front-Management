@@ -6,13 +6,13 @@ import {
   CardHeader,
   Chip,
   Code,
-  Divider,
-  Link,
+  Divider
 } from "@nextui-org/react";
 
 import React from "./icons/React";
 import Next from "./icons/Next";
 import Image from "next/image";
+import Link from "next/link";
 
 const CardItems = ({ data }) => {
   return (
