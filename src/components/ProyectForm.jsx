@@ -74,7 +74,7 @@ const ProyectForm = () => {
       framework: proyect.framework,
       completed: isCompleted,
       date: resDate,
-      repository: `https://github.com/${proyect.repository}`,
+      repository: proyect.repository,
       url: proyect.url,
     };
     const { title, framework } = data;
@@ -104,7 +104,7 @@ const ProyectForm = () => {
       framework: proyect.framework,
       completed: isCompleted,
       date: resDate,
-      repository: `https://github.com/${proyect.repository}`,
+      repository: proyect.repository,
       url: proyect.url,
     };
     const { title, framework } = data;
@@ -191,7 +191,7 @@ const ProyectForm = () => {
                     label="Github repository"
                     name="repository"
                     value={updateProyect && proyect.repository}
-                    placeholder="username/project name"
+                    placeholder="https://github.com/user/project"
                     onChange={handleChange}
                     isDisabled={isCompleted}
                   />
